@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintBottom_toTopOf="@+id/imageView"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+        android:padding="40dp"
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:minWidth="128dp"
+            android:minHeight="128dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@android:drawable/sym_def_app_icon" />
+
+        <TextView
+            android:id="@+id/displayname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Hello World!"
+            android:textSize="36sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView"
+            app:layout_constraintStart_toStartOf="@+id/imageView"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <TextView
+            android:id="@+id/displaydescription"
+            android:layout_width="310dp"
+            android:layout_height="117dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="32dp"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/displayname" />
+
+        <Button
+            android:id="@+id/follow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Follow"
+            app:layout_constraintEnd_toStartOf="@+id/Message"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/displaydescription" />
+
+        <Button
+            android:id="@+id/Message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Message"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/follow"
+            app:layout_constraintTop_toBottomOf="@+id/displaydescription" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
+

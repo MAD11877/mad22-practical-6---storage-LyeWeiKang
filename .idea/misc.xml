@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Wei Kang/Documents/MAD/Practical/mad22-practical-3---event-handling-LyeWeiKang/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Wei Kang/Documents/MAD/Practical/mad22-practical-4---recyclerview-LyeWeiKang/app/src/main/res/layout/activity_list.xml" value="0.13240740740740742" />
+        <entry key="..\:/Users/Wei Kang/Documents/MAD/Practical/mad22-practical-4---recyclerview-LyeWeiKang/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Wei Kang/Documents/MAD/Practical/mad22-practical-4---recyclerview-LyeWeiKang/app/src/main/res/layout/activity_message_group.xml" value="0.1" />
+        <entry key="..\:/Users/Wei Kang/Documents/MAD/Practical/mad22-practical-4---recyclerview-LyeWeiKang/app/src/main/res/layout/fragment_group1.xml" value="0.1" />
+        <entry key="..\:/Users/Wei Kang/Documents/MAD/Practical/mad22-practical-4---recyclerview-LyeWeiKang/app/src/main/res/layout/fragment_group2.xml" value="0.1" />
+        <entry key="..\:/Users/Wei Kang/Documents/MAD/Practical/mad22-practical-4---recyclerview-LyeWeiKang/app/src/main/res/layout/listactivity_alternatercv.xml" value="0.20277777777777778" />
+        <entry key="..\:/Users/Wei Kang/Documents/MAD/Practical/mad22-practical-4---recyclerview-LyeWeiKang/app/src/main/res/layout/listactivity_rcv.xml" value="0.264" />
+        <entry key="..\:/Users/Wei Kang/Documents/MAD/mad22-practical-3---event-handling-LyeWeiKang/app/src/main/res/layout/activity_main.xml" value="0.10364583333333334" />
+        <entry key="..\:/Users/Wei Kang/Documents/MAD/mad22-practical-3---event-handling-LyeWeiKang/app/src/main/res/layout/activity_message_group.xml" value="0.2" />
+        <entry key="..\:/Users/Wei Kang/Documents/MAD/mad22-practical-3---event-handling-LyeWeiKang/app/src/main/res/layout/fragment_g_r_o_u_p1.xml" value="0.10364583333333334" />
+        <entry key="..\:/Users/Wei Kang/Documents/MAD/mad22-practical-3---event-handling-LyeWeiKang/app/src/main/res/layout/fragment_group1.xml" value="0.1" />
+        <entry key="..\:/Users/Wei Kang/Documents/MAD/mad22-practical-3---event-handling-LyeWeiKang/app/src/main/res/layout/fragment_group2.xml" value="0.10364583333333334" />
+        <entry key="..\:/Users/Wei Kang/Documents/MAD/mad22-practical-6---storage-LyeWeiKang/app/src/main/res/layout/activity_login.xml" value="0.225" />
+        <entry key="..\:/Users/Wei Kang/Documents/MAD/mad22-practical-6---storage-LyeWeiKang/app/src/main/res/layout/activity_main.xml" value="0.21203703703703702" />
+        <entry key="..\:/Users/Wei Kang/Documents/MAD/mad22-practical-6---storage-LyeWeiKang/app/src/main/res/layout/activity_message_group.xml" value="0.225" />
+        <entry key="..\:/Users/Wei Kang/Documents/MAD/mad22-practical-6---storage-LyeWeiKang/app/src/main/res/layout/fragment_group2.xml" value="0.225" />
+        <entry key="..\:/Users/Wei Kang/Documents/MAD/mad22-practical-6---storage-LyeWeiKang/app/src/main/res/layout/listactivity_alternatercv.xml" value="0.225" />
+        <entry key="..\:/Users/Wei Kang/Documents/MAD/mad22-practical-6---storage-LyeWeiKang/app/src/main/res/layout/listactivity_rcv.xml" value="0.225" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
