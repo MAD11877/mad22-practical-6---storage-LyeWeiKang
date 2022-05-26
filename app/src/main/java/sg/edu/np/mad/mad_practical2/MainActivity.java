@@ -24,8 +24,11 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        User user=getIntent().getParcelableExtra("user");
         TextView displayName=findViewById(R.id.displayname);
+        SQLAdapter db = new SQLAdapter(this);
+        int id=getIntent().getIntExtra("id",-1);
+        ArrayList<User> userList= db.GetUser();
+        User user=userList.get(id);
         displayName.setText(user.name);
         TextView displayDescription=findViewById(R.id.displaydescription);
         displayDescription.setText(user.description);
@@ -36,7 +39,6 @@ public class MainActivity extends AppCompatActivity {
         else{
             follow.setText("FOLLOW");
         }
-        SQLAdapter db = new SQLAdapter(this);
         follow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -45,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
                     user.followed=false;
                     db.UpdateUser(user);
                     follow.setText("FOLLOW");
+                    Toast.makeText(MainActivity.this,"unFollowed", Toast.LENGTH_SHORT).show();
 
                 }
                 else{

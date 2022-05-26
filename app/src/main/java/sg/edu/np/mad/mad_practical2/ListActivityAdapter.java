@@ -58,6 +58,7 @@ public class ListActivityAdapter extends RecyclerView.Adapter<ListActivityViewHo
                     public void onClick(DialogInterface dialogInterface, int i) {
                         Intent intent=new Intent(activity,MainActivity.class);
                         intent.putExtra("user",n);
+                        intent.putExtra("id",n.id);
                         activity.startActivity(intent);
                     }
                 });
