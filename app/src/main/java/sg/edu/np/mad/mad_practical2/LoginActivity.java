@@ -38,7 +38,7 @@ public class LoginActivity extends AppCompatActivity {
                 myRef2.child("password:").addValueEventListener(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot snapshot) {
-
+                        String password_data=snapshot.getChildren().toString();
                     }
 
                     @Override
@@ -49,8 +49,8 @@ public class LoginActivity extends AppCompatActivity {
                 myRef2.child("username").addValueEventListener(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot snapshot) {
-                        snapshot.getChildren();
-
+                        String username_data=snapshot.getChildren().toString();
+                        loginButton.setText(username_data);
                     }
 
                     @Override
